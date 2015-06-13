@@ -1,0 +1,16 @@
+{
+  "name": "frontend",
+  "version": "0.0.1",
+  "homepage": "https://github.com/CodeWhisperers/frontend",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.4"
+  }
+}
