@@ -1,3 +1,82 @@
-@import '../../bower_components/bootstrap/less/bootstrap.less';
-@import '../../bower_components/font-awesome/less/font-awesome.less';
+@path-components: '../../bower_components/';
 
+@import '@{path-components}font-awesome/less/font-awesome.less';
+@import '@{path-components}bootstrap/less/bootstrap.less';
+
+@import 'variables.less';
+@import 'bootswatch.less';
+
+@import '@{path-components}jasny-bootstrap/less/navmenu.less';
+@import '@{path-components}jasny-bootstrap/less/offcanvas.less';
+
+body {
+
+    padding-top: 100px;
+}
+
+#offcanvas {
+
+    ul {
+
+        li {
+
+            i {
+
+                margin-right: 8px;
+
+            }
+
+        }
+
+    }
+
+}
+
+.navbar-toggle {
+
+    float: left;
+    margin: 15px 0 0 15px;
+
+    .icon-bar {
+
+        background-color: #EBEBEB;
+
+    }
+
+}
+
+.main-quest {
+
+    margin: 20px auto;
+    text-align: center;
+
+    i {
+        font-size: 200px;
+    }
+
+}
+
+footer {
+
+    width: 100%;
+    background: @brand-primary;
+    position: absolute;
+    bottom: 0px;
+    padding: 10px 0;
+
+    p {
+
+        padding: 0px 10px;
+        margin: 0px;
+        text-transform: uppercase;
+
+        span {
+
+            font-weight: bold;
+            float: right;
+
+        }
+
+    }
+
+}
