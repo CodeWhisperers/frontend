@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/CodeWhisperers/frontend/issues"
   },
-  "homepage": "https://github.com/CodeWhisperers/frontend#readme"
+  "homepage": "https://github.com/CodeWhisperers/frontend#readme",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.5.2",
+    "gulp-less": "^3.rr0.3",
+    "gulp-minify-css": "^1.1.6"
+  }
 }
